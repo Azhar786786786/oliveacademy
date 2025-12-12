@@ -8,8 +8,13 @@ import EventCondition from './Components/EventCondition';
 import MultipleCondition from './Components/MultipleCondition';
 import InputData from './Components/InputData';
 import reportWebVitals from './reportWebVitals';
+import PropsInReact from './Components/PropsInReact';
+import PropsMultipleDataInReact from './Components/PropsMultipleDataInReact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const empName="Azhar Hussain Khan";
+const empAge=35;
+const addr="037, chilmapur, Rustampur dhala, near jama masjid, shivepuri new colony 273016, U.P. (India)."
 root.render(
   <React.StrictMode>
     <App />
@@ -18,6 +23,8 @@ root.render(
     <EventCondition />
     <MultipleCondition />
     <InputData />
+    <PropsInReact empName="Azhar Hussain Khan" />
+    <PropsMultipleDataInReact empName={empName} empAge={empAge} addr={addr} />
   </React.StrictMode>
 );
 
