@@ -12,6 +12,7 @@ import PropsInReact from './Components/PropsInReact';
 import PropsMultipleDataInReact from './Components/PropsMultipleDataInReact';
 import PropsObjectInReact from './Components/PropsObjectInReact';
 import PropsMultipleObjectInReact from './Components/PropsMultipleObjectInReact';
+import PropsArrayInReact from './Components/PropsArrayInReact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const empName = "Azhar Hussain Khan";
@@ -50,6 +51,8 @@ let employee4 = {
   emailId: "talkazhar786@hotmail.com"
 }
 
+let university=["DDU","Munad","ITM","IIT","JNU","AU"];
+
 root.render(
   <React.StrictMode>
     <App />
@@ -66,6 +69,8 @@ root.render(
     <PropsMultipleObjectInReact user={employee2} />
     <PropsMultipleObjectInReact user={employee3} />
     <PropsMultipleObjectInReact user={employee4} />
+
+    <PropsArrayInReact uni={university} />
   </React.StrictMode>
 );
 
