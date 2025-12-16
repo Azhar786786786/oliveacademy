@@ -11,6 +11,8 @@ import PropsMultipleDataInReact from './Components/PropsMultipleDataInReact';
 import PropsObjectInReact from './Components/PropsObjectInReact';
 import PropsMultipleObjectInReact from './Components/PropsMultipleObjectInReact';
 import PropsArrayInReact from './Components/PropsArrayInReact';
+import PassJsxToProps from './Components/PassJsxToProps';
+import PropsWithDifferentTheme from './Components/PropsWithDifferentTheme';
 
 
 function App() {
@@ -76,6 +78,34 @@ function App() {
 
     <PropsArrayInReact uni={university} />
 
+    <PassJsxToProps textcol="blue">
+      <h1 style={{color:"yellow"}}>Student Card</h1>
+      <h2>Student Name : Azhaan Hussain Khan</h2>
+      <h2>Father Name : Azhar Hussain Khan</h2>
+      <h2>Mother's Name : Shaista Khatoon</h2>
+      <h2>Roll Number : H1</h2>
+      <h2>School Name : Olive Academy</h2>
+    </PassJsxToProps>
+    <PassJsxToProps>
+      <h1 style={{color:"yellow"}}>Student Card</h1>
+      <h2>Student Name : Azhaan Hussain Khan</h2>
+      <h2>Father Name : Azhar Hussain Khan</h2>
+      <h2>Mother's Name : Shaista Khatoon</h2>
+      <h2>Roll Number : H1</h2>
+      <h2>School Name : Olive Academy</h2>
+    </PassJsxToProps>
+    <PassJsxToProps>
+      <h1 style={{color:"yellow"}}>Student Card</h1>
+      <h2>Student Name : Azhaan Hussain Khan</h2>
+      <h2>Father Name : Azhar Hussain Khan</h2>
+      <h2>Mother's Name : Shaista Khatoon</h2>
+      <h2>Roll Number : H1</h2>
+      <h2>School Name : Olive Academy</h2>
+    </PassJsxToProps>
+
+    <PropsWithDifferentTheme textcol="yellow" bg="gray" />
+    <PropsWithDifferentTheme textcol="cyan" bg="gray" />
+    <PropsWithDifferentTheme textcol="gray" bg="green" />
     </div>
   );
 }
