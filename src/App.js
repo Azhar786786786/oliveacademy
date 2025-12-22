@@ -13,7 +13,8 @@ import PropsMultipleObjectInReact from './Components/PropsMultipleObjectInReact'
 import PropsArrayInReact from './Components/PropsArrayInReact';
 import PassJsxToProps from './Components/PassJsxToProps';
 import PropsWithDifferentTheme from './Components/PropsWithDifferentTheme';
-
+import InputBoxData from './Components/InputBoxData';
+import ControllerComponent from './Components/ControllerComponent';
 
 function App() {
 
@@ -106,6 +107,9 @@ function App() {
     <PropsWithDifferentTheme textcol="yellow" bg="gray" />
     <PropsWithDifferentTheme textcol="cyan" bg="gray" />
     <PropsWithDifferentTheme textcol="gray" bg="green" />
+
+    <InputBoxData />
+    <ControllerComponent />
     </div>
   );
 }
