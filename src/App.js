@@ -15,6 +15,7 @@ import PassJsxToProps from './Components/PassJsxToProps';
 import PropsWithDifferentTheme from './Components/PropsWithDifferentTheme';
 import InputBoxData from './Components/InputBoxData';
 import ControllerComponent from './Components/ControllerComponent';
+import CheckBoxData from './Components/CheckBoxData';
 
 function App() {
 
@@ -110,6 +111,8 @@ function App() {
 
     <InputBoxData />
     <ControllerComponent />
+
+    <CheckBoxData />
     </div>
   );
 }
