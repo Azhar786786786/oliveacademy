@@ -16,6 +16,7 @@ import PropsWithDifferentTheme from './Components/PropsWithDifferentTheme';
 import InputBoxData from './Components/InputBoxData';
 import ControllerComponent from './Components/ControllerComponent';
 import CheckBoxData from './Components/CheckBoxData';
+import ChilmapurMap from './Components/ChilmapurMap';
 
 function App() {
 
@@ -113,6 +114,7 @@ function App() {
     <ControllerComponent />
 
     <CheckBoxData />
+    <ChilmapurMap />
     </div>
   );
 }
