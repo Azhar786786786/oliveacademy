@@ -17,6 +17,10 @@ import InputBoxData from './Components/InputBoxData';
 import ControllerComponent from './Components/ControllerComponent';
 import CheckBoxData from './Components/CheckBoxData';
 import ChilmapurMap from './Components/ChilmapurMap';
+import DifferentStateCounter from './Components/DifferentStateCounter';
+import InLineStyling from './Components/InLineStyling';
+import RadioButtonData from './RadioButtonData';
+import DropDownListData from './Components/DropDownListData';
 
 function App() {
 
@@ -65,12 +69,12 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
       <h1>This is created by Azhar Hussain Khan</h1>
 
-      <WildLife />
+      {/* <WildLife />
     <JsCode />
     <EventCondition />
     <MultipleCondition />
-    <InputData />
-    <PropsInReact empName="Azhar Hussain Khan" />
+    <InputData /> */}
+    {/* <PropsInReact empName="Azhar Hussain Khan" />
     <PropsMultipleDataInReact empName={empName} empAge={empAge} addr={addr} />
     <PropsObjectInReact user={employee} />
 
@@ -79,9 +83,9 @@ function App() {
     <PropsMultipleObjectInReact user={employee3} />
     <PropsMultipleObjectInReact user={employee4} />
 
-    <PropsArrayInReact uni={university} />
+    <PropsArrayInReact uni={university} /> */}
 
-    <PassJsxToProps textcol="blue">
+    {/* <PassJsxToProps textcol="blue">
       <h1 style={{color:"yellow"}}>Student Card</h1>
       <h2>Student Name : Azhaan Hussain Khan</h2>
       <h2>Father Name : Azhar Hussain Khan</h2>
@@ -104,17 +108,21 @@ function App() {
       <h2>Mother's Name : Shaista Khatoon</h2>
       <h2>Roll Number : H1</h2>
       <h2>School Name : Olive Academy</h2>
-    </PassJsxToProps>
+    </PassJsxToProps> */}
 
-    <PropsWithDifferentTheme textcol="yellow" bg="gray" />
+    {/* <PropsWithDifferentTheme textcol="yellow" bg="gray" />
     <PropsWithDifferentTheme textcol="cyan" bg="gray" />
-    <PropsWithDifferentTheme textcol="gray" bg="green" />
+    <PropsWithDifferentTheme textcol="gray" bg="green" /> */}
 
     <InputBoxData />
     <ControllerComponent />
 
     <CheckBoxData />
-    <ChilmapurMap />
+    <RadioButtonData />
+    <DropDownListData />
+    <DifferentStateCounter />
+    <InLineStyling />
+    {/* <ChilmapurMap /> */}
     </div>
   );
 }

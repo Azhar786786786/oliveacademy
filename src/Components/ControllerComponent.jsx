@@ -16,9 +16,9 @@ function ControllerComponent() {
     <>
       <h1>Input Controlled Component</h1>
       {/* <form action=""> */}
-      <h2><input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter you name' /></h2><br /><br />
-      <h2><input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Enter you password' /></h2><br /><br />
-      <h2><input type="tel" value={phno} onChange={(e) => setPhNo(e.target.value)} placeholder='Enter you phone' /></h2><br /><br />
+      <h2><input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter you name' /></h2>
+      <h2><input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Enter you password' /></h2>
+      <h2><input type="tel" value={phno} onChange={(e) => setPhNo(e.target.value)} placeholder='Enter you phone' /></h2>
       <h2><button>Submit</button></h2>
       {/* <h2><button onClick={resetData}>Reset</button></h2> */}
       {/* OR */}

@@ -4,8 +4,9 @@ function ChilmapurMap() {
   return (
     <div style={{ width: "100%", height: "450px" }}>
       <iframe
-        title="Chilmapur Location"
-        src="https://www.google.com/maps?q=Chilmapur+Road,+Azad+Nagar,+Gorakhpur,+Uttar+Pradesh,+India/@26.7289129,83.3715318&output=embed"
+        title="37 Chilmapur, Rustampur Dhala, Gorakhpur Location"
+        // src="https://www.google.com/maps?q=37+Chilmapur+Rustampur+Dhala,+jama+Masjid,+Shivpurinewcolony,+Gorakhpur,+Uttar+Pradesh,+India/@26.7289129,83.3715318&output=embed"
+        src="https://www.google.com/maps?q=26.7283,83.3729&output=embed"
         width="100%"
         height="100%"
         style={{ border: 0 }}
