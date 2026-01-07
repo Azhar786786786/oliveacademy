@@ -21,6 +21,9 @@ import DifferentStateCounter from './Components/DifferentStateCounter';
 import InLineStyling from './Components/InLineStyling';
 import RadioButtonData from './RadioButtonData';
 import DropDownListData from './Components/DropDownListData';
+import Box from './Components/Box';
+import Weather from './Components/WeatherApp/Weather';
+import MyWeather from './Components/WeatherApp/MyWeather';
 
 function App() {
 
@@ -123,6 +126,12 @@ function App() {
     <DifferentStateCounter />
     <InLineStyling />
     {/* <ChilmapurMap /> */}
+
+    <Box name="AHK" post="Senior Developer"/>
+    <Box name="BHK" post="Junior Assistent"/>
+    <hr/>
+    <Weather/>
+    <MyWeather/>
     </div>
   );
 }
