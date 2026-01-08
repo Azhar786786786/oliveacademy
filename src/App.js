@@ -24,6 +24,8 @@ import DropDownListData from './Components/DropDownListData';
 import Box from './Components/Box';
 import Weather from './Components/WeatherApp/Weather';
 import MyWeather from './Components/WeatherApp/MyWeather';
+import MySpinner from './Components/ReactSpinners/MySpinner';
+import MySlider from './Components/Sliders/MySlider';
 
 function App() {
 
@@ -132,6 +134,10 @@ function App() {
     <hr/>
     <Weather/>
     <MyWeather/>
+    <hr/>
+    <MySpinner/>
+    <hr/>
+    <MySlider/>
     </div>
   );
 }
